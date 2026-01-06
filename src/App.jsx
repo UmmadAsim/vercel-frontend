@@ -4,7 +4,7 @@ import moment from 'moment'
 import 'animate.css'
 import axios from 'axios'
 
-axios.defaults.baseURL = "http://localhost:8080"
+axios.defaults.baseURL = "https://vercel-backend-xi.vercel.app/"
 
 const App = () => {
   const [todo, setTodo] = useState([])
